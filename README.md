@@ -83,10 +83,10 @@ All data are stored in CSV format and merged on **ticker** and **date** to align
 ## Folder Structure  
 earnings_language_impact/
 │
-├── data/                # local data storage (ignored by Git)
-├── notebooks/           # Jupyter notebooks
-├── figures/             # visual outputs
-├── reports/             # regression summaries / tables
+├── data/ 
+├── notebooks/   
+├── figures/
+├── reports/
 ├── .gitignore
 └── README.md
 
@@ -102,13 +102,13 @@ earnings_language_impact/
 ---
 
 ## Project Plan  
-| Phase | Description | Duration |
-|--------|--------------|----------|
-| Setup & Data Prep | Load, standardize, and merge datasets | ~2 hrs |
-| Text Cleaning & Tone | Clean text and compute tone features | ~3 hrs |
-| Return Calculations | Compute abnormal returns and event windows | ~3 hrs |
-| Modeling & Testing | Regression analysis and interpretation | ~5 hrs |
-| Visualization & Reporting | Generate figures, robustness checks | ~3 hrs |
+| Phase | Description |
+|--------|--------------|
+| Setup & Data Prep | Load, standardize, and merge datasets |
+| Text Cleaning & Tone | Clean text and compute tone features |
+| Return Calculations | Compute abnormal returns and event windows |
+| Modeling & Testing | Regression analysis and interpretation |
+| Visualization & Reporting | Generate figures, robustness checks |
 
 ---
 
