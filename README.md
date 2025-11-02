@@ -80,16 +80,17 @@ All data are stored in CSV format and merged on **ticker** and **date** to align
 
 ---
 
-## Folder Structure  
+## Folder Structure
+
+```text
 earnings_language_impact/
 │
-├── data/ 
-├── notebooks/   
-├── figures/
-├── reports/
-├── .gitignore
-└── README.md
-
+├── data/          Local data files (ignored by Git)
+├── notebooks/     Jupyter notebooks for data cleaning, modeling, and analysis
+├── figures/       Generated plots and visualizations
+├── reports/       Model summaries, regression tables, and outputs
+├── .gitignore     Excludes data and temporary files from version control
+└── README.md      Project documentation
 
 ---
 
