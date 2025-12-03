@@ -69,6 +69,7 @@ The project required careful control of memory usage while working with millions
 This project showcases the ability to merge large text datasets with time-series market data, process them efficiently under resource constraints, and derive observable financial insights through statistical modeling. It provides evidence that qualitative language in corporate communication carries measurable information content. It also demonstrates competency in data engineering, NLP, econometrics, and reproducible research.
 
 ## Repository Structure  
+```
 earnings_language_impact/
 │
 ├── data/              Raw and intermediate files (excluded from Git)
@@ -77,7 +78,7 @@ earnings_language_impact/
 ├── reports/           Model summaries and generated outputs
 ├── utils/             Custom loaders and processing functions
 └── README.md          Project documentation
-
+```
 ## Tools and Environment  
 - Python 3  
 - pandas, numpy, regex, statsmodels  
