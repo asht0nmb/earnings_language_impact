@@ -63,7 +63,7 @@ No.
 Uncertainty language has its own positive effect on abnormal returns, but it does not change the slope of the positive or negative tone relationships.
 
 ## Challenges and Limitations  
-The project required careful control of memory usage while working with millions of price rows and thousands of transcripts. This led to custom data-loading functions and careful filtering. Tone measures rely on dictionary matching, which does not capture deeper semantics or speaker intent. The event window focuses on immediate reactions and does not capture delayed market responses. Abnormal returns are benchmarked only against SPY, which may miss sector-specific effects.
+The project required careful control of memory usage while working with millions of price rows and thousands of transcripts. This led to custom data-loading functions and careful filtering. Tone measures rely on dictionary matching, which does not capture deeper semantics or speaker intent. The event window focuses on immediate reactions and does not capture delayed market responses. Abnormal returns are benchmarked only against SPY, which significantly simplifies signals and misses sector-specific, as well as report-specific, effects.
 
 ## What This Project Demonstrates  
 This project showcases the ability to merge large text datasets with time-series market data, process them efficiently under resource constraints, and derive observable financial insights through statistical modeling. It provides evidence that qualitative language in corporate communication carries measurable information content. It also demonstrates competency in data engineering, NLP, econometrics, and reproducible research.
